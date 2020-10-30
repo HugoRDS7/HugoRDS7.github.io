@@ -10,8 +10,7 @@ layout: feed
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
 	<id>http://HugoRDS7.github.io/blog</id>
 	<author>
-		<name>Data Journey</name>
-		<!<email></email>>
+		<name>Hugo Rocha</name>
 	</author>
 
 	{% for post in site.posts %}
